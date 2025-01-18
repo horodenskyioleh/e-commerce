@@ -1,5 +1,7 @@
 <div>
   <a href="https://imgpx.com/FScia94cweLW"><img src="https://imgpx.com/Sy6VmElEuziz.png" alt="Зображення IMGpx" /></a>
+  <br/>
+  <a href="https://imgpx.com/dyzWEzuuTrWi"><img src="https://imgpx.com/BPgNCbowgCNQ.png" alt="Зображення IMGpx" /></a>
 </div>
 
 # Getting Started with Create React App
