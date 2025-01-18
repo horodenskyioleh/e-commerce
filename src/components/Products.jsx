@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import { NavLink } from 'react-router-dom'
+import "../components/syles/products.scss"
 
 const Products = () => {
 
@@ -67,7 +68,7 @@ const Products = () => {
           return(
             <>
             
-              <div className='d-flex flex-row justify-content-around mb-4'>
+              {/* <div className='d-flex flex-row justify-content-around mb-4'>
 
                 <div class="card h-100 w-25  text-center p-4" key={product.id} >
                   <img   src={product.image} class="card-img-top" alt={product.title.substring(0)} />
@@ -78,7 +79,21 @@ const Products = () => {
                   </div>
                 </div>
 
+              </div> */}
+             
+              <div className='wrapper'>
+                  <div className='card'>
+                    <img src={product.image}  alt={product.title.substring(0)} />
+                    
+                    <h5>{product.title}</h5>
+                    <p>${product.price}</p>
+                    <NavLink to={`/products/${product.id}`} class="btn btn-outline-dark">Buy Now</NavLink>
+                  
+                  </div>
+
+                  
               </div>
+             
               
             </>
           )
@@ -107,4 +122,3 @@ const Products = () => {
 
 export default Products
 
-//23:46

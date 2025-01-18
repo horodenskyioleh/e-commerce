@@ -71,6 +71,8 @@ const Product = () => {
                     <button className='btn btn-outline-dark' onClick={()=> addProduct(product)}>Add to Cart</button>
                     <NavLink className="btn btn-outline-dark ms-2 px-3" to="/cart" >Go to Cart</NavLink>
                 </div>
+
+                
                
             </>
         )
